@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Creepster&family=DM+Serif+Display&family=Dancing+Script:wght@600&family=Libre+Baskerville:wght@700&family=Lobster&family=Roboto:ital,wght@0,400;1,500&family=Viga&display=swap');
+body{
+   background-image: url("download.jpeg");
+   background-size: contain;
+}
+
+h1{
+    color: white;
+    text-decoration:underline;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Architects Daughte
+}
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.calculator{
+    cursor: pointer;
+    height: 560px;
+    width: 1050px;
+    border: solid 3px rgb(248, 243, 243);
+    border-radius: 20px;
+
+    
+}
+
+#btn_change2{
+    margin-left: 5px;
+    width:110px ;
+    height:195px;
+}
+#btn_change{
+    margin-left: 5px;
+    width:110px ;
+    height:195px;
+}
+
+.child1
+{
+margin-left: 10px;
+display: flex;
+}
+
+.parent{
+
+    display: flex;
+}
+
+
+
+input{
+
+    width: 1020px;
+    height:80px;
+    background-color: rgba(14, 9, 1, 0.63);
+    color: rgb(245, 241, 241);
+    border-radius: 20px;
+    font-size: 35px;
+    margin:10px;
+    border:  solid 3px rgb(175, 151, 151);
+}
+
+#button1{
+height: 410px;
+}
+
+.btn{
+height: 126px;
+width: 110px;
+border: solid 3px rgb(238, 236, 236);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+color: white;
+margin-top: 4px;
+margin-bottom: 4px;
+border-radius: 15px;
+margin-right: 10px;
+}
+
+.btn:hover{
+background-color:  rgb(175, 151, 151);
+color: black;
+border: solid 3px rgb(34, 49, 73);
+}
+
+.part-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+
+
+
+@media screen and (min-width: 750px) and (max-width: 1100px)
+{
+
+    h1{
+        font-size: 30px;
+       
+    }
+    
+
+    .calculator{
+        
+        height: 400px;
+        width: 730px;      
+    }
+
+ .btn{
+    height: 86px;
+width: 70px;
+ } 
+
+ #button1{
+    height: 270px;
+    }
+
+
+    input{
+
+        width: 700px;
+        height:50px;
+        font-size: 25px;
+      
+    }
+
+    #btn_change2{
+        width:80px ;
+        height:135px;
+        
+    }
+    #btn_change{
+        width:80px ;
+        height:135px;
+    }
+
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 749px)
+{
+
+    h1{
+        font-size: 10px;
+       
+    }
+    
+
+    .calculator{
+        
+        height: 200px;
+        width: 330px;  
+    
+    }
+
+ .btn{
+    height: 36px;
+width: 30px;
+font-size: 10px;
+
+ } 
+
+ #button1{
+    height: 125px;
+    font-size: 10px;
+    }
+
+
+    input{
+
+        width: 300px;
+        height:10px;
+        font-size: 5px;
+      
+    }
+
+    #btn_change2{
+        width:30px ;
+        height:60px;
+        font-size: 10px;
+    }
+    #btn_change{
+        width:30px ;
+        height:60px;
+        font-size: 10px;
+    }
+
+}
